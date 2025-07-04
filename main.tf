@@ -7,7 +7,7 @@ resource "aws_instance" "guru_instance"{
     ami="ami-0d03cb826412c6b0f"
 }
 
-/*
+
 resource "aws_dynamodb_table" "terraform_lock" {
     name           = "GuruTable"
     billing_mode   = "PAY_PER_REQUEST"
@@ -29,4 +29,3 @@ resource "aws_s3_bucket" "guru_bucket" {
         Name = "GuruS3Bucket"
     }
 }
-*/
